@@ -1,0 +1,229 @@
+{
+  "dataset_name": "synthetic_public_douyin_research_sample",
+  "description": "Desensitized and synthetic sample for event-oriented public-content analysis.",
+  "topic_id": "metro_incident_202606",
+  "topic_name": "某城市地铁晚高峰故障",
+  "videos": [
+    {
+      "video_id": "v001",
+      "source_url": "https://example.com/douyin/v001",
+      "crawl_time": "2026-06-14T09:30:00+08:00",
+      "publish_time": "2026-06-13T18:07:00+08:00",
+      "title": "晚高峰地铁站大量乘客滞留",
+      "summary": "视频拍摄于晚高峰时段，乘客聚集在站台和换乘通道，现场广播提示列车晚点。",
+      "hashtags": [
+        "地铁故障",
+        "晚高峰",
+        "城市通勤"
+      ],
+      "author": {
+        "author_id": "a001",
+        "alias": "城市观察记录",
+        "verification": "普通用户",
+        "followers": 4200,
+        "location_label": "本地"
+      },
+      "stats": {
+        "likes": 13800,
+        "comments": 560,
+        "shares": 2200,
+        "favorites": 1800
+      },
+      "comments": [
+        {
+          "comment_id": "c001",
+          "user_id": "u001",
+          "user_alias": "通勤的人",
+          "publish_time": "2026-06-13T18:10:00+08:00",
+          "ip_location_label": "本地",
+          "like_count": 820,
+          "text": "太离谱了，现场一点解释都没有，大家都在盲等。",
+          "is_author_comment": false,
+          "replies": [
+            {
+              "reply_id": "r001",
+              "user_id": "u005",
+              "user_alias": "下班路上",
+              "publish_time": "2026-06-13T18:13:00+08:00",
+              "ip_location_label": "本地",
+              "like_count": 120,
+              "text": "是的，信息不透明最让人生气。"
+            }
+          ]
+        },
+        {
+          "comment_id": "c002",
+          "user_id": "u002",
+          "user_alias": "理性围观",
+          "publish_time": "2026-06-13T18:12:00+08:00",
+          "ip_location_label": "外地",
+          "like_count": 510,
+          "text": "先别带节奏，先看是不是设备故障，工作人员也在处理。",
+          "is_author_comment": false,
+          "replies": []
+        },
+        {
+          "comment_id": "c003",
+          "user_id": "u003",
+          "user_alias": "热搜冲起来",
+          "publish_time": "2026-06-13T18:15:00+08:00",
+          "ip_location_label": "本地",
+          "like_count": 640,
+          "text": "建议转发曝光，别让这种事就这么过去。",
+          "is_author_comment": false,
+          "replies": [
+            {
+              "reply_id": "r002",
+              "user_id": "u006",
+              "user_alias": "关注民生",
+              "publish_time": "2026-06-13T18:18:00+08:00",
+              "ip_location_label": "本地",
+              "like_count": 88,
+              "text": "应该持续监督，不能每次都没有说法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "video_id": "v002",
+      "source_url": "https://example.com/douyin/v002",
+      "crawl_time": "2026-06-14T09:35:00+08:00",
+      "publish_time": "2026-06-13T18:40:00+08:00",
+      "title": "地铁运营方发布现场说明",
+      "summary": "账号转发现场广播和运营说明，称为设备临时故障，正在逐步恢复运行。",
+      "hashtags": [
+        "运营说明",
+        "地铁恢复"
+      ],
+      "author": {
+        "author_id": "a002",
+        "alias": "本地交通资讯",
+        "verification": "媒体",
+        "followers": 158000,
+        "location_label": "本地"
+      },
+      "stats": {
+        "likes": 9200,
+        "comments": 430,
+        "shares": 1300,
+        "favorites": 950
+      },
+      "comments": [
+        {
+          "comment_id": "c004",
+          "user_id": "u001",
+          "user_alias": "通勤的人",
+          "publish_time": "2026-06-13T18:44:00+08:00",
+          "ip_location_label": "本地",
+          "like_count": 700,
+          "text": "说明来得太晚了，乘客被困的时候为什么没人及时回应？",
+          "is_author_comment": false,
+          "replies": []
+        },
+        {
+          "comment_id": "c005",
+          "user_id": "u007",
+          "user_alias": "求真务实",
+          "publish_time": "2026-06-13T18:46:00+08:00",
+          "ip_location_label": "本地",
+          "like_count": 330,
+          "text": "至少现在有说明了，希望尽快恢复，别再误传爆炸之类的消息。",
+          "is_author_comment": false,
+          "replies": [
+            {
+              "reply_id": "r003",
+              "user_id": "u008",
+              "user_alias": "别传谣",
+              "publish_time": "2026-06-13T18:50:00+08:00",
+              "ip_location_label": "外地",
+              "like_count": 75,
+              "text": "对，已经有人在夸大了，先等官方通报。"
+            }
+          ]
+        },
+        {
+          "comment_id": "c006",
+          "user_id": "u003",
+          "user_alias": "热搜冲起来",
+          "publish_time": "2026-06-13T18:47:00+08:00",
+          "ip_location_label": "本地",
+          "like_count": 420,
+          "text": "有说明不代表没问题，该追责还是要追责，建议继续曝光。",
+          "is_author_comment": false,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "video_id": "v003",
+      "source_url": "https://example.com/douyin/v003",
+      "crawl_time": "2026-06-14T09:40:00+08:00",
+      "publish_time": "2026-06-13T20:15:00+08:00",
+      "title": "线路已恢复，乘客回顾现场情况",
+      "summary": "当晚线路恢复后，乘客回顾滞留情况，讨论后续改进和信息通报问题。",
+      "hashtags": [
+        "恢复运行",
+        "信息通报"
+      ],
+      "author": {
+        "author_id": "a003",
+        "alias": "城事快拍",
+        "verification": "自媒体",
+        "followers": 67000,
+        "location_label": "本地"
+      },
+      "stats": {
+        "likes": 11600,
+        "comments": 390,
+        "shares": 980,
+        "favorites": 1210
+      },
+      "comments": [
+        {
+          "comment_id": "c007",
+          "user_id": "u009",
+          "user_alias": "希望改进",
+          "publish_time": "2026-06-13T20:20:00+08:00",
+          "ip_location_label": "本地",
+          "like_count": 540,
+          "text": "恢复了是好事，但以后请第一时间解释，不然大家只会更恐慌。",
+          "is_author_comment": false,
+          "replies": []
+        },
+        {
+          "comment_id": "c008",
+          "user_id": "u002",
+          "user_alias": "理性围观",
+          "publish_time": "2026-06-13T20:24:00+08:00",
+          "ip_location_label": "外地",
+          "like_count": 210,
+          "text": "这次应该算设备问题，不要什么都往阴谋论上带。",
+          "is_author_comment": false,
+          "replies": []
+        },
+        {
+          "comment_id": "c009",
+          "user_id": "u010",
+          "user_alias": "问责到底",
+          "publish_time": "2026-06-13T20:27:00+08:00",
+          "ip_location_label": "本地",
+          "like_count": 610,
+          "text": "不是恢复了就结束，必须给公众一个完整交代。",
+          "is_author_comment": false,
+          "replies": [
+            {
+              "reply_id": "r004",
+              "user_id": "u003",
+              "user_alias": "热搜冲起来",
+              "publish_time": "2026-06-13T20:29:00+08:00",
+              "ip_location_label": "本地",
+              "like_count": 94,
+              "text": "同意，继续关注后续回应，别冷处理。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

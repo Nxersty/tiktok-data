@@ -1,0 +1,351 @@
+{
+  "dataset_name": "synthetic_public_douyin_research_sample",
+  "topic_id": "metro_incident_202606",
+  "topic_name": "某城市地铁晚高峰故障",
+  "stats": {
+    "video_count": 3,
+    "comment_count": 9,
+    "reply_count": 4
+  },
+  "dominant_sentiment": "neutral",
+  "sentiment_breakdown": {
+    "negative": 5,
+    "positive": 2,
+    "neutral": 6
+  },
+  "stance_breakdown": {
+    "other": 1,
+    "criticize_response": 4,
+    "support_response": 6,
+    "rumor_warning": 4,
+    "call_for_amplification": 4
+  },
+  "phase_breakdown": {
+    "现场曝光": 3,
+    "官方说明": 3,
+    "恢复运行": 2,
+    "追责反思": 1
+  },
+  "dominant_stances": [
+    [
+      "support_response",
+      6
+    ],
+    [
+      "criticize_response",
+      4
+    ],
+    [
+      "rumor_warning",
+      4
+    ],
+    [
+      "call_for_amplification",
+      4
+    ]
+  ],
+  "video_summaries": [
+    {
+      "video_id": "v001",
+      "title": "晚高峰地铁站大量乘客滞留",
+      "publish_time": "2026-06-13T18:07:00+08:00",
+      "phase_tags": [
+        "现场曝光",
+        "官方说明"
+      ],
+      "top_comment": "太离谱了，现场一点解释都没有，大家都在盲等。",
+      "top_comment_likes": 820,
+      "sentiment_breakdown": {
+        "negative": 3,
+        "positive": 1,
+        "neutral": 1
+      },
+      "stance_breakdown": {
+        "other": 1,
+        "criticize_response": 1,
+        "support_response": 1,
+        "rumor_warning": 1,
+        "call_for_amplification": 2
+      }
+    },
+    {
+      "video_id": "v002",
+      "title": "地铁运营方发布现场说明",
+      "publish_time": "2026-06-13T18:40:00+08:00",
+      "phase_tags": [
+        "现场曝光",
+        "官方说明",
+        "恢复运行"
+      ],
+      "top_comment": "说明来得太晚了，乘客被困的时候为什么没人及时回应？",
+      "top_comment_likes": 700,
+      "sentiment_breakdown": {
+        "negative": 2,
+        "positive": 1,
+        "neutral": 1
+      },
+      "stance_breakdown": {
+        "criticize_response": 2,
+        "support_response": 2,
+        "rumor_warning": 2,
+        "call_for_amplification": 1
+      }
+    },
+    {
+      "video_id": "v003",
+      "title": "线路已恢复，乘客回顾现场情况",
+      "publish_time": "2026-06-13T20:15:00+08:00",
+      "phase_tags": [
+        "现场曝光",
+        "官方说明",
+        "恢复运行",
+        "追责反思"
+      ],
+      "top_comment": "不是恢复了就结束，必须给公众一个完整交代。",
+      "top_comment_likes": 610,
+      "sentiment_breakdown": {
+        "neutral": 4
+      },
+      "stance_breakdown": {
+        "support_response": 3,
+        "rumor_warning": 1,
+        "criticize_response": 1,
+        "call_for_amplification": 1
+      }
+    }
+  ],
+  "high_activity_users": [
+    {
+      "user_id": "u003",
+      "activity_score": 15,
+      "comment_count": 2,
+      "reply_count": 1,
+      "video_count": 3,
+      "amplification_hits": 3,
+      "sample_texts": [
+        "建议转发曝光，别让这种事就这么过去。",
+        "有说明不代表没问题，该追责还是要追责，建议继续曝光。",
+        "同意，继续关注后续回应，别冷处理。"
+      ]
+    },
+    {
+      "user_id": "u001",
+      "activity_score": 6,
+      "comment_count": 2,
+      "reply_count": 0,
+      "video_count": 2,
+      "amplification_hits": 0,
+      "sample_texts": [
+        "太离谱了，现场一点解释都没有，大家都在盲等。",
+        "说明来得太晚了，乘客被困的时候为什么没人及时回应？"
+      ]
+    },
+    {
+      "user_id": "u002",
+      "activity_score": 6,
+      "comment_count": 2,
+      "reply_count": 0,
+      "video_count": 2,
+      "amplification_hits": 0,
+      "sample_texts": [
+        "先别带节奏，先看是不是设备故障，工作人员也在处理。",
+        "这次应该算设备问题，不要什么都往阴谋论上带。"
+      ]
+    },
+    {
+      "user_id": "u006",
+      "activity_score": 5,
+      "comment_count": 0,
+      "reply_count": 1,
+      "video_count": 1,
+      "amplification_hits": 1,
+      "sample_texts": [
+        "应该持续监督，不能每次都没有说法。"
+      ]
+    }
+  ],
+  "timeline_entries": [
+    {
+      "time": "2026-06-13T18:07:00+08:00",
+      "type": "video",
+      "video_id": "v001",
+      "title": "晚高峰地铁站大量乘客滞留",
+      "phase_tags": [
+        "现场曝光",
+        "官方说明"
+      ]
+    },
+    {
+      "time": "2026-06-13T18:10:00+08:00",
+      "type": "comment",
+      "video_id": "v001",
+      "user_id": "u001",
+      "text": "太离谱了，现场一点解释都没有，大家都在盲等。",
+      "sentiment": "negative",
+      "stances": [
+        "other"
+      ]
+    },
+    {
+      "time": "2026-06-13T18:12:00+08:00",
+      "type": "comment",
+      "video_id": "v001",
+      "user_id": "u002",
+      "text": "先别带节奏，先看是不是设备故障，工作人员也在处理。",
+      "sentiment": "positive",
+      "stances": [
+        "support_response",
+        "rumor_warning"
+      ]
+    },
+    {
+      "time": "2026-06-13T18:13:00+08:00",
+      "type": "reply",
+      "video_id": "v001",
+      "user_id": "u005",
+      "text": "是的，信息不透明最让人生气。",
+      "sentiment": "negative",
+      "stances": [
+        "criticize_response"
+      ]
+    },
+    {
+      "time": "2026-06-13T18:15:00+08:00",
+      "type": "comment",
+      "video_id": "v001",
+      "user_id": "u003",
+      "text": "建议转发曝光，别让这种事就这么过去。",
+      "sentiment": "negative",
+      "stances": [
+        "call_for_amplification"
+      ]
+    },
+    {
+      "time": "2026-06-13T18:18:00+08:00",
+      "type": "reply",
+      "video_id": "v001",
+      "user_id": "u006",
+      "text": "应该持续监督，不能每次都没有说法。",
+      "sentiment": "neutral",
+      "stances": [
+        "call_for_amplification"
+      ]
+    },
+    {
+      "time": "2026-06-13T18:40:00+08:00",
+      "type": "video",
+      "video_id": "v002",
+      "title": "地铁运营方发布现场说明",
+      "phase_tags": [
+        "现场曝光",
+        "官方说明",
+        "恢复运行"
+      ]
+    },
+    {
+      "time": "2026-06-13T18:44:00+08:00",
+      "type": "comment",
+      "video_id": "v002",
+      "user_id": "u001",
+      "text": "说明来得太晚了，乘客被困的时候为什么没人及时回应？",
+      "sentiment": "negative",
+      "stances": [
+        "criticize_response"
+      ]
+    },
+    {
+      "time": "2026-06-13T18:46:00+08:00",
+      "type": "comment",
+      "video_id": "v002",
+      "user_id": "u007",
+      "text": "至少现在有说明了，希望尽快恢复，别再误传爆炸之类的消息。",
+      "sentiment": "positive",
+      "stances": [
+        "support_response",
+        "rumor_warning"
+      ]
+    },
+    {
+      "time": "2026-06-13T18:47:00+08:00",
+      "type": "comment",
+      "video_id": "v002",
+      "user_id": "u003",
+      "text": "有说明不代表没问题，该追责还是要追责，建议继续曝光。",
+      "sentiment": "negative",
+      "stances": [
+        "criticize_response",
+        "call_for_amplification"
+      ]
+    },
+    {
+      "time": "2026-06-13T18:50:00+08:00",
+      "type": "reply",
+      "video_id": "v002",
+      "user_id": "u008",
+      "text": "对，已经有人在夸大了，先等官方通报。",
+      "sentiment": "neutral",
+      "stances": [
+        "support_response",
+        "rumor_warning"
+      ]
+    },
+    {
+      "time": "2026-06-13T20:15:00+08:00",
+      "type": "video",
+      "video_id": "v003",
+      "title": "线路已恢复，乘客回顾现场情况",
+      "phase_tags": [
+        "现场曝光",
+        "官方说明",
+        "恢复运行",
+        "追责反思"
+      ]
+    },
+    {
+      "time": "2026-06-13T20:20:00+08:00",
+      "type": "comment",
+      "video_id": "v003",
+      "user_id": "u009",
+      "text": "恢复了是好事，但以后请第一时间解释，不然大家只会更恐慌。",
+      "sentiment": "neutral",
+      "stances": [
+        "support_response"
+      ]
+    },
+    {
+      "time": "2026-06-13T20:24:00+08:00",
+      "type": "comment",
+      "video_id": "v003",
+      "user_id": "u002",
+      "text": "这次应该算设备问题，不要什么都往阴谋论上带。",
+      "sentiment": "neutral",
+      "stances": [
+        "rumor_warning"
+      ]
+    },
+    {
+      "time": "2026-06-13T20:27:00+08:00",
+      "type": "comment",
+      "video_id": "v003",
+      "user_id": "u010",
+      "text": "不是恢复了就结束，必须给公众一个完整交代。",
+      "sentiment": "neutral",
+      "stances": [
+        "support_response",
+        "criticize_response"
+      ]
+    },
+    {
+      "time": "2026-06-13T20:29:00+08:00",
+      "type": "reply",
+      "video_id": "v003",
+      "user_id": "u003",
+      "text": "同意，继续关注后续回应，别冷处理。",
+      "sentiment": "neutral",
+      "stances": [
+        "support_response",
+        "call_for_amplification"
+      ]
+    }
+  ]
+}

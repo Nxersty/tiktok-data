@@ -1,0 +1,61 @@
+{
+  "dataset_name": "manual_public_douyin_capture_template",
+  "description": "Template for structuring publicly visible Douyin research samples.",
+  "topic_id": "replace_with_topic_id",
+  "topic_name": "replace_with_topic_name",
+  "collection_notes": [
+    "Only record publicly visible information.",
+    "Do not attempt to infer or recover sensitive private information.",
+    "If the page displays an IP location label, store it as ip_location_label."
+  ],
+  "videos": [
+    {
+      "video_id": "video_xxx",
+      "source_url": "https://example.com/video",
+      "crawl_time": "2026-06-14T10:00:00+08:00",
+      "publish_time": "2026-06-14T08:35:00+08:00",
+      "title": "replace_with_title",
+      "summary": "replace_with_summary",
+      "hashtags": [
+        "话题标签1",
+        "话题标签2"
+      ],
+      "author": {
+        "author_id": "author_xxx",
+        "alias": "作者昵称",
+        "verification": "媒体/官方/普通用户/自媒体",
+        "followers": 0,
+        "location_label": "地区标签"
+      },
+      "stats": {
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "favorites": 0
+      },
+      "comments": [
+        {
+          "comment_id": "comment_xxx",
+          "user_id": "user_xxx",
+          "user_alias": "评论用户",
+          "publish_time": "2026-06-14T08:45:00+08:00",
+          "ip_location_label": "IP属地标签",
+          "like_count": 0,
+          "text": "评论内容",
+          "is_author_comment": false,
+          "replies": [
+            {
+              "reply_id": "reply_xxx",
+              "user_id": "user_yyy",
+              "user_alias": "回复用户",
+              "publish_time": "2026-06-14T08:50:00+08:00",
+              "ip_location_label": "IP属地标签",
+              "like_count": 0,
+              "text": "回复内容"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
